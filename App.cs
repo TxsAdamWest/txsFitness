@@ -23,6 +23,7 @@ namespace Txs.Fitness
 
 			//Add minutes exercised to the total
 			//Display total minutes exercised to the screen
+			Console.WriteLine("You've exercised for " + entry + " minutes!");
 			//Repeat
 		}
 	}
