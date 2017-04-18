@@ -46,19 +46,19 @@ namespace Txs.Fitness
 
 			                    if(minutes <= 10)
 			                    {
-			                        Console.WriteLine("Better than nothing, am I right?");
+			                        Console.WriteLine("Quick rep?");
 			                    }
 			                    else if(minutes <= 30)
 			                    {
-			                        Console.WriteLine("Way to go hot stuff!");
+			                        Console.WriteLine("Watch those gains grow!");
 			                    }
 			                    else if(minutes <= 60)
 			                    {
-			                        Console.WriteLine("You must be a ninja warrior in training!");
+			                        Console.WriteLine("What a BEAST!");
 			                    }
 			                    else
 			                    {        
-			                        Console.WriteLine("Okay, now you're just showing off!");
+			                        Console.WriteLine("ULTRAAAAAAAAAA! ");
 			                    }
 
 			                    runningTotal = runningTotal + minutes;
@@ -69,7 +69,7 @@ namespace Txs.Fitness
 			                // Repeat until user quits
 			            }
 
-		            Console.WriteLine("Goodbye");
+		            Console.WriteLine("See ya later! Stay hydrated!");
  
 		}
 	}
